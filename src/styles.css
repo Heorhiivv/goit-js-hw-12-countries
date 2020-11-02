@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-image: url('https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.flag {
+  width: 350px;
+  height: 250px;
+  margin-top: 81px;
+  margin-left: 40px;
+}
+.input {
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  font-size: 28px;
+}
+.schedule {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    color: seashell;
+    justify-content: center;
+}
+.country {
+  position: absolute;
+  top: 20px;
+  font-size: 44px;
+}
+
+.title {
+  font-weight: 700;
+}
+.countries {
+  display: contents;
+}

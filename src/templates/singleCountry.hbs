@@ -1,14 +1,15 @@
+
 <h1 class="country">{{name}}</h1>
+<div class="coutry__info">
 <ul class="articles">
-  <li class="capital">
-    <p class="title">Capital:</p>{{capital}}
+  <li>Capital:
+    <p class="title">{{capital}}</p>
   </li>
-  <li class="population">
-    <p class="title">Population:</p>{{population}}
+  <li>Population:
+    <p class="title">{{population}}</p>
   </li>
-  <li class="languages">
-    <p class="title">Languages:</p>
-    <ul>
+  <li>Languages:
+    <ol>
       {{#each languages}}
       <li class="native_lang">{{name}}</li>
       {{/each}}
@@ -16,3 +17,4 @@
   </li>
 </ul>
 <img src="{{flag}}" class="flag" alt="flag">
+</div>
